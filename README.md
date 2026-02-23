@@ -14,3 +14,22 @@ Apprendre à faire une pull request
 ## Utilité des branches dans un repo: 
 - L'utilisation des branches dans github permet de séparer les environnement de prod/dev ce qui est une bonne pratique.
 - Les branches permettent de travailler sur plusieurs fonctionnalités en même temps sans risque de conflit entre membres d'un même projet.
+
+
+## Création d'un tag
+Pour créer un tag dans git voici la commande: 
+
+```bash
+# Créer un tag annoté
+git tag -a v0.1.0 -m "Première version du script d'horloge"
+
+# Pousser un tag spécifique
+git push origin v0.1.0
+
+# Ou pousser tous vos tags d'un coup
+git push --tags
+```
+
+
+## Acknowledgement
+Merci l'équipe Ada vos cours sont super !
