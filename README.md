@@ -17,3 +17,15 @@ Apprendre à faire une pull request
 
 
 ## Création d'un tag
+Pour créer un tag dans git voici la commande: 
+
+```bash
+# Créer un tag annoté
+git tag -a v0.1.0 -m "Première version du script d'horloge"
+
+# Pousser un tag spécifique
+git push origin v0.1.0
+
+# Ou pousser tous vos tags d'un coup
+git push --tags
+```
