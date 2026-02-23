@@ -20,3 +20,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    erreur1 # ceci est une variable non définie
