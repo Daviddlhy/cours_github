@@ -32,3 +32,4 @@ git push --tags
 
 
 ## Acknowledgement
+Merci l'équipe Ada vos cours sont super !
